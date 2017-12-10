@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="styles/Styles.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Practica 11</title>
+</head>
+<body>
+	<div id="web">
+		<header>
+			<h1 id="title">Administrador de tareas</h1>
+			<a href="#" id="userDiv"><i class="fa fa-user-circle-o" id="userIcon"></i>Rafa Carmona<i class="fa fa-toggle-down"></i></a>
+		</header>
+		<main>
+			<nav id="navPrincipal">
+				<div id="buscadorPrincipalDiv">
+					<p>Buscar tarea</p><input id="buscadorPrincipal" type="text" name="search" placeholder="Buscar...">
+				</div>
+				<div id="selectDiv">
+					<p>Filtrar por módulo:</p>
+					<select name="filtro" id="filtro">
+						<option value="">Módulo...</option>
+						<option value="DWEC">Desarollo Web Cliente</option>
+						<option value="DWES">Desarrollo Web Servidores</option>
+						<option value="DIW">Desarrollo de interfaces Web</option>
+						<option value="HLC">Android</option>
+						<option value="DESP">Despliegue de servidores</option>
+						<option value="EMP">Empresas</option>
+					</select>
+				</div>
+				<div id="dateDiv">
+					<p>Filtrar por fecha:</p>
+					<input type="date" id="date">
+				</div>
+			</nav>
+			<section id="principal">
+				<div class="tarea">
+					<p class="nombreTarea">Entregar práctica 10</p>
+					<p class="modulo">Diseño de interfaces Web</p>
+					<p class="fecha">1-12-2017</p>
+					<p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius, similique ratione nam provident deserunt at suscipit dolor maiores sint. Magni doloribus hic, veniam minus blanditiis ipsa, reiciendis iure placeat.</p>
+					<p class="editaryborrar"><a href="#">Editar <i class="fa fa-edit"></i></a></p>
+					<p class="editaryborrar"><a href="#">Borrar <i class="fa fa-remove"></i></a></p>
+				</div>
+				<div class="separador" ></div>
+					<div class="tarea">
+					<p class="nombreTarea">Entregar práctica 11</p>
+					<p class="modulo">Diseño de interfaces Web</p>
+					<p class="fecha">11-12-2017</p>
+					<p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius, similique ratione nam provident deserunt at suscipit dolor maiores sint. Magni doloribus hic, veniam minus blanditiis ipsa, reiciendis iure placeat.</p>
+					<p class="editaryborrar"><a href="#">Editar <i class="fa fa-edit"></i></a></p>
+					<p class="editaryborrar"><a href="#">Borrar <i class="fa fa-remove"></i></a></p>
+				</div>
+				<div class="separador" ></div>
+				<div class="tarea">
+					<p class="nombreTarea">Examen teórico (wtf) javascript</p>
+					<p class="modulo">Desarrollo web Cliente</p>
+					<p class="fecha">12-12-2017</p>
+					<p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius, similique ratione nam provident deserunt at suscipit dolor maiores sint. Magni doloribus hic, veniam minus blanditiis ipsa, reiciendis iure placeat.</p>
+					<p class="editaryborrar"><a href="#">Editar <i class="fa fa-edit"></i></a></p>
+					<p class="editaryborrar"><a href="#">Borrar <i class="fa fa-remove"></i></a></p>
+				</div>
+				<div class="separador" ></div>
+				<div class="tarea">
+					<p class="nombreTarea">Examen Final</p>
+					<p class="modulo">Diseño de interfaces Web</p>
+					<p class="fecha">11-12-2017</p>
+					<p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius, similique ratione nam provident deserunt at suscipit dolor maiores sint. Magni doloribus hic, veniam minus blanditiis ipsa, reiciendis iure placeat.</p>
+					<p class="editaryborrar"><a href="#">Editar <i class="fa fa-edit"></i></a></p>
+					<p class="editaryborrar"><a href="#">Borrar <i class="fa fa-remove"></i></a></p>
+				</div>
+				<div class="separador" ></div>
+				<div class="tarea">
+					<p class="nombreTarea">Examen php</p>
+					<p class="modulo">Desarrollo aplicaciones Web Cliente</p>
+					<p class="fecha">13-12-2017</p>
+					<p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem eius, similique ratione nam provident deserunt at suscipit dolor maiores sint. Magni doloribus hic, veniam minus blanditiis ipsa, reiciendis iure placeat.</p>
+					<p class="editaryborrar"><a href="#">Editar <i class="fa fa-edit"></i></a></p>
+					<p class="editaryborrar"><a href="#">Borrar <i class="fa fa-remove"></i></a></p>
+				</div>
+				<div class="separador" ></div>	
+			</section>
+
+		</main>
+		<aside>
+			<h2>Miembros</h2>
+			<div id="buscadorMiembrosDiv">
+				<p>Buscar</p><input id="buscadorMiembros" type="text" name="search" placeholder="Buscar...">
+			</div>
+			<div class="alumno">
+				<a href="#"><i class="fa fa-ellipsis-v"></i><p class="pMiembros">David Mateo Cuenca</p><i class="fa fa-user"></i></a>
+			</div>
+			<div class="alumno">
+				<a href="#"><i class="fa fa-ellipsis-v"></i><p class="pMiembros">Victor Manuel Sajunto</p><i class="fa fa-user"></i></a>
+			</div>
+			<div class="alumno">
+				<a href="#"><i class="fa fa-ellipsis-v"></i><p class="pMiembros">Rafael Mellado </p><i class="fa fa-user"></i></a>
+			</div>
+			<div class="alumno">
+				<a href="#"><i class="fa fa-ellipsis-v"></i><p class="pMiembros">Rafa Carmona Luque</p><i class="fa fa-user"></i></a>
+			</div>
+			<div class="alumno">
+				<a href="#"><i class="fa fa-ellipsis-v"></i><p class="pMiembros">Rafa Carmona Luque</p><i class="fa fa-user"></i></a>
+			</div>
+			<div class="alumno">
+				<a href="#"><i class="fa fa-ellipsis-v"></i><p class="pMiembros">Rafa Carmona Luque</p><i class="fa fa-user"></i></a>
+			</div>
+			<div class="alumno">
+				<a href="#"><i class="fa fa-ellipsis-v"></i><p class="pMiembros">Alberto de Sistemas</p><i class="fa fa-user"></i></a>
+			</div>
+			<div class="alumno">
+				<a href="#"><i class="fa fa-ellipsis-v"></i><p class="pMiembros">Nieves Borrero</p><i class="fa fa-user"></i></a>
+			</div>
+			<div class="alumno">
+				<a href="#"><i class="fa fa-ellipsis-v"></i><p class="pMiembros">Pablo León</p><i class="fa fa-user"></i></a>
+			</div>
+			<div class="alumno">
+				<a href="#"><i class="fa fa-ellipsis-v"></i><p class="pMiembros">Rafa Delgado</p><i class="fa fa-user"></i></a>
+			</div>
+			<div class="alumno">
+				<a href="#"><i class="fa fa-ellipsis-v"></i><p class="pMiembros">Javier Ponferrada</p><i class="fa fa-user"></i></a>
+			</div>
+			<div class="alumno">
+				<a href="#"><i class="fa fa-ellipsis-v"></i><p class="pMiembros">Miguel Ángel Gavilán</p><i class="fa fa-user"></i></a>
+			</div>
+		</aside>
+	
+	<footer >
+			<article class="derechos">
+				<div>Icons made by <a href="https://www.flaticon.com/authors/elegant-themes" title="Elegant Themes">Elegant Themes</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+			</article>
+			<article class="iconos">
+				<a href="#"><img src="imgs/twitter.svg" alt="Twitter"></a>
+				<a href="#"><img src="imgs/facebook.svg" alt="Facebook"></a>
+				<a href="#"><img src="imgs/youtube.svg" alt="Youtube"></a>
+				<a href="#"><img src="imgs/google.svg" alt="Google"></a>
+				<a href="https://github.com/rafacarmona"><img src="imgs/logo.svg" alt="logo"></a>
+			</article>
+		</footer>
+	</div>
+</body>
+</html>
